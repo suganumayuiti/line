@@ -4,7 +4,11 @@
 
 namespace Composer\Autoload;
 
+<<<<<<< HEAD
 class ComposerStaticInit177163a03742f2b61df3d2f7b55621d3
+=======
+class ComposerStaticInit94556cb5317a41d0463fb9a98db58da1
+>>>>>>> heroku/master
 {
     public static $prefixLengthsPsr4 = array (
         'L' => 
@@ -23,8 +27,13 @@ class ComposerStaticInit177163a03742f2b61df3d2f7b55621d3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+<<<<<<< HEAD
             $loader->prefixLengthsPsr4 = ComposerStaticInit177163a03742f2b61df3d2f7b55621d3::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit177163a03742f2b61df3d2f7b55621d3::$prefixDirsPsr4;
+=======
+            $loader->prefixLengthsPsr4 = ComposerStaticInit94556cb5317a41d0463fb9a98db58da1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit94556cb5317a41d0463fb9a98db58da1::$prefixDirsPsr4;
+>>>>>>> heroku/master
 
         }, null, ClassLoader::class);
     }

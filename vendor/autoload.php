@@ -4,4 +4,8 @@
 
 require_once __DIR__ . '/composer/autoload_real.php';
 
+<<<<<<< HEAD
 return ComposerAutoloaderInit177163a03742f2b61df3d2f7b55621d3::getLoader();
+=======
+return ComposerAutoloaderInit94556cb5317a41d0463fb9a98db58da1::getLoader();
+>>>>>>> heroku/master
